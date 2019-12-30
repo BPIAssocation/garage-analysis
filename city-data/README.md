@@ -1,0 +1,7 @@
+Biddeford does not have their propery assessment data available in a `SQL`,`CSV`, or any other other file types readily available to download that was used in class but they do provide a detail database in `dbf` formatting and `shapefile`s with much of the `dbf` data joined with it. All of this data can be found in the GIS section of the city's website: https://www.biddefordmaine.org/2522/GIS-Data-Catalog
+
+There is also a seperate DBF file with just property related info called `Vision Parcel Data.` Doing a clean convert to CSV for this and the other joined databased is not smooth because of poorly formated records tracking previous owner(s) data. Luckily this study is agnostic to owner related data and not looking to anylyse sale data.
+
+The joined data ended up being used because it produces less wrong results when comparing publicaly stated total property tax revenues less all other publicaly stated considerations. Someone who knows public finance likely can spot the error. It was also better formatted and needed little cleaning besides removing columns (variables) tracking personal identification and political district info for local, state and federal.
+
+There are two officail versions of the dataset that came with the GIS and Parcels data joined - `.dbf` and a `.shp` file. The `.dbf` was marginally cleaned via dropping personal id and political districting info. The rest of the data set was not editted minus minor column name edits for the `CSV` file version.
