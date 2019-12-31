@@ -1,14 +1,5 @@
-# Welcome
-
-**Goal:** to empower BPL stakeholders in making this jewel of an area even more precious
-
-**Path to Goal:** Utilize modern day tools centered around enabling collaboration regardless of current physical location. This is important because the BPL community has turned into a mostly global crowd.
-
-## Live Open Source Projects
-*Downtown Garage Property Tax Analysis* 
-> Leveraging an open-ended grad level big data research project to analysis Biddeford's proposed garage development in downtown and alternative ways to generate similar tax revenues for the city
-
-[**Findings**](analysis/garage-proposal.md)
+# Findings
+[Read](analysis/garage-proposal.md)
 
 ## Folder Structure
 - analysis: markdown files that summarize juptyer-notebook work done
